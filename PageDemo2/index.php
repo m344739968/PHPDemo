@@ -22,7 +22,7 @@ $sql="select id,title,pic from food order by id asc limit $startPage,$pageSize";
 $data=$conn->getAll($sql);
 ?>
 <div id="header">
-    <div id="logo"><h3><a href="#" title="首页">PHP分页</a></h3></div>
+    <div id="logo"><i><a href="#" title="首页">PHP可刷新分页</a></i></div>
 </div>
 <div id="main">
     <div id="list">
@@ -65,9 +65,9 @@ $data=$conn->getAll($sql);
     <p>PHP add by malei</p>
 </div>
 <style type="text/css">
-    #list{ height:530px; margin:50px auto 2px auto; position:relative;display:block;}
+    #list{ height:530px; margin:2px auto 2px auto; position:relative;display:block;}
     #list ul li{ float:left;width:220px; height:260px; margin:2px; list-style:none;}
-    #list ul li img{width:220px; height:220px}
+    #list ul li img{width: 220px;height: 220px;}
     #list ul li p{line-height:22px}
     #pagecount{width:500px; margin:10px auto 2px auto; padding-bottom:20px; text-align:center}
     #pagecount span{margin:4px; font-size:14px}
