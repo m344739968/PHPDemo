@@ -30,7 +30,13 @@ echo "<br/>" ;
     <li>
         <div>
             <span>1.</span>
-            <a href="PagesDemo/index.html" target="_blank">分页示例</a>
+            <a href="PageDemo/index.html" target="_blank">PHP无刷新分页</a>
+        </div>
+    </li>
+    <li>
+        <div>
+            <span>2.</span>
+            <a href="PageDemo/index.html" target="_blank">PHP可刷新分页</a>
         </div>
     </li>
 </ul>
