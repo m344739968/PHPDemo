@@ -12,7 +12,7 @@
 //echo json_encode($arr)
 $list=array(
     1001 => array(
-        'name'=>'张三',
+        'name'=>'张三1',
         'age'=>28
     ),
     1002=>array(
